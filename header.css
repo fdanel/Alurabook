@@ -1,13 +1,13 @@
-.cabeçalho__menu-hamburuuer{
+.cabeçalho__menu-hamburguer{
     width: 24px;
     height: 24px;
-    background-image: url("../img/menu.svg");
+    background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
 }
 .cabeçalho{
-    background-color: bisque;
+    background-color: rgb(252, 241, 241);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,11 +17,11 @@
     display: flex;
     align-items: center;
 }
-.canteinar__imagem{
+.container__imagem{
     padding: 1em;
 }
 .lista-menu{
-    display: nome;
+    display: none;
     position: absolute;
     top: 100%;
     width: 60vw;
@@ -29,7 +29,7 @@
 .container__botao:checked~.lista-menu{
     display: block;
 }
-.lista-menu__titulo,
+.lista-menu__titulo, 
 .lista-menu__item{
     padding: 1em;
     background-color: white;
@@ -38,7 +38,7 @@
     color: orange;
 }
 .lista-menu__link{
-    background: rgb(154, 154, 216);
+    background: rgb(20, 20, 74);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
