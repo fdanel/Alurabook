@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .container{
     display: flex;
@@ -18,4 +19,28 @@
 }
 .canteinar__imagem{
     padding: 1em;
+}
+.lista-menu{
+    display: nome;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+.container__botao:checked~.lista-menu{
+    display: block;
+}
+.lista-menu__titulo,
+.lista-menu__item{
+    padding: 1em;
+    background-color: white;
+}
+.lista-menu__titulo{
+    color: orange;
+}
+.lista-menu__link{
+    background: rgb(154, 154, 216);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
