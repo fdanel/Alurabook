@@ -1,11 +1,13 @@
-@import url("styles/header.css")
+@import url("styles/header.css");
+@import url("styles/banner.css"):
 
 :root{
     --cor-de-fundo: white;
+    --fonte-principal:"Poppins";
 }
 body{
     background-color: var(--cor-de-fundo);
-}
-.cabeçalho{
-    background-color: white;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
