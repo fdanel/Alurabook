@@ -36,6 +36,7 @@
 }
 .lista-menu__titulo{
     color: orange;
+    font-weight: 700;
 }
 .lista-menu__link{
     background: rgb(20, 20, 74);
@@ -43,4 +44,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+.container__botao{
+    display: none;
 }
